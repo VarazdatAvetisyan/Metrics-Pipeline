@@ -26,7 +26,6 @@ def ingest_talked_time():
     INSERT INTO talked_time_metrics (user_id, session_id, talked_time, timestamp)
     VALUES (%s, %s, %s, %s)
     """
-
     data = []
     for metric in metrics:
         data.append((
