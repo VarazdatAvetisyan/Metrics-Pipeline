@@ -8,7 +8,9 @@ Setup
 Prerequisites
 Docker & Docker Compose
 Postman or a similar tool for testing API endpoints
+
 Quick Start
+
 Clone the Repository: Get the project files onto your local machine.
 Build and Run: Use Docker Compose to set up and launch the Flask app and PostgreSQL database.
 Verify the Database: Ensure the database is initialized and tables are set up.
